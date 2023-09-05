@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
   color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url(img/img1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.left{
+  position: absolute;
+  left: 44px;
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left img{
+  /*background-image: url(img/img2.jpg);*/
+  width: 81px;
+  height: 78px;
+}
+.mid{
+  display: block;
+  width: 550px;
+  margin: 22px auto;
+}
+.right{
+  position: absolute;
+  top: 18px;
+  right: 44px;
+  //display: inline-block; 
+}
+/*.right button{
+  margin: 10px;
+  padding: 2px;
+  background: black;
+  color: papayawhip;
+  border: grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.right button:hover{
+  color:rgb(190, 182, 183);
+  text-decoration:none ;
+  padding: 2px;
+}*/
+/*.navbar{
+  display: inline-block;
+}*/
+.navbar li{
+  //display: inline-block;
+  font-size: large;
+  font: bold;
+}
+/*.navbar li a {
+color: white;
+text-decoration: none;
+padding: 20px 20px;
+}
+.navbar li a:hover{
+  color:rgb(190, 182, 183);
+  text-decoration: underline;
+  padding: 20px 20px;
+}*/
+/*.container {
+  border: 2px solid white;
+  margin: 180px auto;
+  padding: 53px 87px;
+  width: 33%;
+  border-radius: 13px;
+}*/
+/*.form input{
+    width: 157px;
+    color: white;
+    background-color: black;
+    padding: 0px 10px;
+}*/
+/*.container button{
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+  background: black;
+  color: papayawhip;
+  border: grey;
+  border-radius: 5px;
+  cursor: pointer;
+}*/
+.container button:hover{
+  color:gray;
+  text-decoration: solid;
+  padding: 2px;
+}
+.container form {
+  margin: 76px;
+  padding: 0;
+  border: none;
 }
